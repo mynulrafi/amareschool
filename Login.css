@@ -1,0 +1,63 @@
+*{
+  box-sizing:border-box;
+}
+.main1{
+  background-color:#B3B6B7;
+  padding:15px 15px 10px;
+  margin:1px
+}
+.div{
+  margin:0;
+  padding:0px;
+  height:70vh;
+  width:100vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#555;
+  background-color:#ecf0f3;
+  overflow:hidden;
+}
+.fld-set{
+  border-radius: 7px;
+  background: #e0e0e0;
+  text-align:center;
+  height:300px;
+  width:300px;
+}
+.legend{
+  color:blue;
+}
+.inp1{
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow:-6px -6px 90px #5a5a5a,
+             6px 6px 90px #ffffff;
+  font-size:20px;
+  height:50px;
+}
+
+.inp2 {
+  color: green;
+  background-color: green;
+  font-weight: bold;
+  font-size:15px;
+  height:50px;
+  border-radius: 40px;
+  background: #e0e0e0;
+}
+.inp2:hover{
+  color:yellow;
+}
+.signup{
+  color:black;
+  font-weight:bold;
+}
+.fc{
+  text-decoration:none;
+  font-weight:bold;
+}
+.fc:hover{
+  color:red;
+  box-shadow:2px 2px 2px green;
+}
